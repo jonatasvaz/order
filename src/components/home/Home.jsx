@@ -1,8 +1,15 @@
-import { Outlet } from "react-router-dom"
+
 import { motion } from "framer-motion"
 import { Conteiner, Img } from "./homeStyled"
 import wall from"../../img/wall.jpg"
 import Footer from "../footer/Footer"
+
+
+
+
+   
+
+
 
 function Home() {
 
@@ -15,9 +22,10 @@ function Home() {
       >
         <Conteiner>
         <Img src={wall}/>
-      
+          
         </Conteiner>
-   
+        
+
       </motion.div>
     )
   }

@@ -11,6 +11,13 @@ justify-content: space-between;
 ul{
     display: flex;
 
+    @media (max-width: 407px) {
+       
+       
+     margin-left: -40px;
+     
+      }
+
     li{
       margin-right: 53px;
       line-height: 45px;
@@ -20,17 +27,23 @@ ul{
         margin-right: 13px;
        justify-content: center;
       }
+    
 
       a{
        text-decoration: none;
        font-size: 20px;
        color: #fff;
-
+       
        @media (max-width: 768px) {
     font-size: 13px;
        
       }
-   font-size: 18px;
+      @media (max-width: 407px) {
+       
+       
+       font-size: 10px;
+       
+        }
        
       }   
       a:hover{
@@ -39,10 +52,7 @@ ul{
       }
     }
 
-    @media (min-width: 768px) {
-   
-       
-      }
+  
 }
   
 `

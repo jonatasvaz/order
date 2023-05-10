@@ -3,11 +3,11 @@ import styled from "styled-components";
 
  export const Img=styled.img`
 width :100% ;
-
+height: 100%;
 `
 export const Conteiner=styled.div`
- width:100%;
- 
+ height:450px;
+ background-color: antiquewhite;
  
  label{
     
@@ -27,3 +27,4 @@ opacity: 0.7;
     opacity: 1;
  }
 `
+

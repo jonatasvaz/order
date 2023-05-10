@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container =styled.div`
    display: flex;
    width: 100%;
-
+     height: 100%;
    @media (max-width:750px ){
        display: inline-block;
       }
@@ -73,7 +73,8 @@ header{
    background-color: #e7e5e5;
    color: #252525;
    border: 2px solid #252525;
-   padding: 6px;
+
+  padding: 6px;
  }
 /*/ input:valid{
     border-bottom: 2px solid cornflowerblue;
